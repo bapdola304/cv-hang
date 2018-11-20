@@ -50,6 +50,8 @@
     color: white;
     font-weight: bold;
     font-size: 45px;
+    position: absolute !important;
+    top:1%;
 }
 .bg1{
    background-image: url(../images/ys.jpg) !important;
@@ -284,7 +286,11 @@ opacity: 1;
 }
 
 .contact{
-    background-color: #247ab7;
+    background-color: #f6f6f6;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+
 }
 @media screen and (max-width: 450px){
     .icon-scroll{
@@ -366,7 +372,7 @@ img {
     font-weight: bold;
 }
 .photos{
-    margin: 80px 0px;
+    margin-top:80px;
 }
 
 #myBtn {
